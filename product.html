@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>web single product</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="top-nav-bar">
+    <div class="search-box">
+      <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+      <i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+      <img src="images/img0.png" alt="shopping" class="logo">
+      <input type="text" class="form-control">
+      <span class="input-group-text"><i class="fa fa-search"></i></span>
+    </div>
+    <div class="menu-bar">
+      <ul>
+        <li><a href="#"><i class="fa fa-shopping-basket"></i>Cart</a></li>
+        <li><a href="#">sign up</a></li>
+        <li><a href="#">login</a></li>
+      </ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!--------------single product----------------->
+
+<section class="single-product">
+  <div class="container">
+
+  </div>
+</section>
+
+
+  <!-- --------footer-------------- -->
+<section class="footer">
+  <div class="container tex-center">
+    <div class="row">
+      <div class="col-md-3">
+        <h1>useful links</h1>
+        <p>privacy policy</p>
+        <p>terms of use</p>
+        <p>return policy</p>
+        <p>discount coupons</p>
+      </div>
+      <div class="col-md-3">
+        <h1>company</h1>
+        <p>about us</p>
+        <p>contact us</p>
+        <p>career</p>
+        <p>affiliate</p>
+      </div>
+      <div class="col-md-3">
+        <h1>folow us</h1>
+        <p><i class="fa fa-facebook"></i> facebook</p>
+        <p><i class="fa fa-youtube"></i> youtube</p>
+        <p>linkedin</p>
+        <p>twitter</p>
+      </div>
+      <div class="col-md-3 footer-image">
+        <h1>download App</h1>
+        <img src="images/google.jpg" alt="">
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">made by moiz <i class="fa fa-heart-o"></i> productions...</p>
+  </div>
+
+</section>
+
+<script>
+  function openmenu() {
+    document.getElementById("side-menu").style.display = "block"
+    document.getElementById("menu-btn").style.display = "none"
+    document.getElementById("close-btn").style.display = "block"
+  }
+  function closemenu() {
+    document.getElementById("side-menu").style.display = "none"
+    document.getElementById("menu-btn").style.display = "block"
+    document.getElementById("close-btn").style.display = "none"
+  }
+</script>
+</body>
