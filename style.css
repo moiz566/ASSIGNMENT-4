@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: aqua ;
+    /* background-color:  !important; */
     font-family: sans-serif;
 }
 .top-nav-bar{
@@ -12,7 +12,7 @@ body{
     position: sticky;
     background: #fff;
     margin-bottom: 20px;
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid #b00020;
     z-index: 2;
 }
 .logo{
@@ -22,7 +22,7 @@ body{
 .form-control{
     margin-top: 9px;
     margin-left: 30px;
-    border: 1px solid orange !important;
+    border: 1px solid #b00020 !important;
     border-top-left-radius: 20px !important;
     border-bottom-left-radius: 20px !important;
     border-top-right-radius: 0 !important;
@@ -30,8 +30,8 @@ body{
     box-shadow: none !important;
 }
 .input-group-text{
-    background: orange !important;
-    border: 1px solid orange !important;
+    background: #b00020 !important;
+    border: 1px solid #b00020 !important;
     margin: 8.5px 10px 3px 0 !important;
     border-top-left-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
@@ -60,7 +60,7 @@ body{
     list-style-type: none;
     padding: 15px 35px ;
     text-align: center;
-    background-color: orange;
+    background-color: #b00020;
     cursor: pointer;
 }
 .menu-bar ul li a{
@@ -125,7 +125,7 @@ body{
     cursor: pointer;
 }
 .side-menu ul li:hover{
-    color: orange;
+    color: #b00020;
 }
 .side-menu ul li ul{
     display: none;
@@ -149,7 +149,7 @@ body{
 #menu-btn, #close-btn{
     font-size: 30px;
     margin: 10px;
-    color: orange;
+    color: #b00020;
     display: none;
 }
 @media only screen and (max-width: 980px)
@@ -213,7 +213,7 @@ body{
 /* ---------on sale product css----------- */
 
 .title-box{
-    background: orange;
+    background: #b00020;
     color: #fff;
     width: 180px;
     padding: 4px 10px;
@@ -226,7 +226,7 @@ body{
 }
 .title-box::after{
     content: '';
-    border-top: 40px solid orange;
+    border-top: 40px solid #b00020;
     border-right: 50px solid transparent;
     position: absolute;
     display:flex;
@@ -272,7 +272,7 @@ body{
 /* --------------product-bottom css-------------- */
 
 .product-bottom .fa{
-    color: orange;
+    color: #b00020;
     size: 10px;
 }
 .product-bottom h3{
@@ -311,7 +311,7 @@ body{
 /* ---------footer-------- */
 .footer{
     margin-top: 50px;
-    background-color: #000;
+    background-color: #25272e;
     color: white;
 }
 .footer h1{
@@ -342,19 +342,57 @@ body{
     padding-right: 20px;
     font-size: 15px;
 }
+/* -----------------single-product---------------------- */
 
-
-
-
-
-
-
-
-
-
-
-
-
+.single-product{
+    margin-top: 10px;
+}
+.new-arrival{
+    background-color: green;
+    width: 50px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.col-md-7 h2{
+    color: #555;
+}
+.single-product .fa{
+    color: #b00020;
+}
+.single-product .price{
+    color: #b00020;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.single-product input{
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 30px;
+}
+.single-product .btn-primary{
+    background-color: #b00020 !important;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 20px;
+    border: none;
+    box-shadow: none !important;
+}
+/* ------------product-description--------------- */
+.product-description h6{
+    margin-top: 50px;
+    color: #b00020;
+}
+.product-description p{
+    margin-top: 30px;
+}
+.product-description hr{
+    margin-bottom: 50px;
+}
 
 
 
