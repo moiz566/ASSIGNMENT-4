@@ -3,8 +3,8 @@
     padding: 0;
 }
 body{
-    /* background-color:  !important; */
-    font-family: sans-serif;
+    background-color: lightcoral !important;
+    font-family: sans-serif; 
 }
 .top-nav-bar{
     height: 57px;
@@ -59,10 +59,16 @@ body{
     border-left: 1px solid white;
     list-style-type: none;
     padding: 15px 35px ;
-    text-align: center;
+    text-align: 100px;
     background-color: #b00020;
     cursor: pointer;
 }
+.menu-bar ul li:hover{
+    border-radius: 20px;
+    background-color: lightcoral;
+    transition: 1s;
+}
+
 .menu-bar ul li a{
     font-size: 16px;
     font-weight: bold;
@@ -115,17 +121,28 @@ body{
     z-index: 2;
     background-color: #ddd;
 }
-.side-menu ul{
+.side-menu ul a{
+    text-decoration: none;
+    color: #b00020; 
     margin-left: ;
 }
 .side-menu ul li{
     list-style-type: none;
     font-weight: bold;
-    margin-top: 10px;
     cursor: pointer;
+}
+.side-menu ul li abbr{
+    border-bottom: none !important;
 }
 .side-menu ul li:hover{
     color: #b00020;
+    text-decoration: none !important;
+    background-color: lightcoral;
+    transition: 1s;
+    text-align: center;
+    border: 1px solid #b00020;
+    text-transform: ;
+    padding-top: 10px;
 }
 .side-menu ul li ul{
     display: none;
@@ -272,7 +289,7 @@ body{
 /* --------------product-bottom css-------------- */
 
 .product-bottom .fa{
-    color: #b00020;
+    color: #FDCC0D;
     size: 10px;
 }
 .product-bottom h3{
@@ -342,7 +359,16 @@ body{
     padding-right: 20px;
     font-size: 15px;
 }
+
+
 /* -----------------single-product---------------------- */
+.carousel-control-next:hover{
+    background-color: #b00020 !important;
+    transition: 2s;
+    opacity: 1 !important;
+}
+
+
 
 .single-product{
     margin-top: 10px;
@@ -359,7 +385,7 @@ body{
     color: #555;
 }
 .single-product .fa{
-    color: #b00020;
+    color: #FDCC0D;
 }
 .single-product .price{
     color: #b00020;

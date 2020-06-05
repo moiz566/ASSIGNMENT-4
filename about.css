@@ -1,0 +1,60 @@
+/* --------------about us--------------- */
+body{
+    background-image: url(images/background\ 1.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slides{
+    margin:100px 80px ;
+}
+.slides .row .col-md-4 marquee:hover{
+    color: green !important;
+    transition: 1s;
+    font-size: 25px;
+    height: 100px;
+}
+
+.carousel-control-next:hover{
+    background-color: white !important;
+    transition: 2s;
+    opacity: 1 !important;
+}
+/* ---------------text-paragraph(about-us)------------------ */
+.introduction{
+    border: 1px black solid;
+    margin: 80px;
+}
+.col-md-12{
+    color: white;
+    text-align: justify;
+    word-spacing: 5px;
+}
+.col-md-12 h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: serif;
+}
+.col-md-12 h1:hover{
+    cursor: help;
+    font-weight: bolder;
+    color: green;
+    text-decoration: underline;
+}
+@media only screen and (max-width: 980px)
+{
+    .introduction{
+        margin: 0px;
+    }
+    .slides{
+        margin:50px 30px ;
+    }
+    .col-md-12{
+        word-spacing: 1px;
+    }
+    .col-md-12 h1{
+        font-size: 120%;
+        text-align: center;
+    }
+}
